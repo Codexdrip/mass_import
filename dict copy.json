@@ -1,0 +1,22 @@
+{
+  "type_trans": { "DS": "Duvet", "BL": "Blanket", "SS": "Sheet Set" },
+  "size_trans ": {
+    "TW": "Twin",
+    "FU": "Full",
+    "FQ": "Full Queen",
+    "QU": "Queen",
+    "KG": "King",
+    "CK": "Cal King"
+  },
+  "color_trans": {
+    "100": "white",
+    "102": "ivory",
+    "019": "grey",
+    "410": "navy",
+    "090": "fawn",
+    "294": "willow",
+    "417": "ltblue",
+    "479": "lilac",
+    "638": "blush"
+  }
+}
