@@ -63,7 +63,7 @@ def main():
         try: 
             p1 = Person(prod, category_name) 
         except:
-            print("Unexpected error:", sys.exc_info()[0])
+            print("[X] Unexpected error:", sys.exc_info()[0])
             raise
         else:
             # p1.clean_up()
@@ -88,7 +88,7 @@ def main():
     try:
         workbook.save(filename="hello_world.xlsx")
     except:
-        print("[!] Unexpected Error! Is the file open? ", sys.exc_info()[0])
+        print("[X] Unexpected Error! Is the file open? ", sys.exc_info()[0])
         raise
     else:
         print('[!] Done')
